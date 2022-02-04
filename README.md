@@ -1,4 +1,7 @@
 # split-text-by-char-count
+
+https://theaughat.github.io/split-text-by-char-count/
+
 Splits any input string of text into substrings based on any character count. 
 
 Originally created to split messages into substrings of 2000s to cater to the discord message size limit.
