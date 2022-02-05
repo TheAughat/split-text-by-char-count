@@ -54,13 +54,11 @@ function split() {
     }
     
     const splithtml = splitTexts.map((element, index) => {
-        console.log(index);
         return `<p id='para-${index}'>${element}</p>
         <button onclick="copytext(${index}, 'copybtn-${index}')" id="copybtn-${index}">Copy Paragraph ${index + 1}</button>
         `;
     });
     document.getElementById("texthere").innerHTML = splithtml.join('');
-    console.log(splithtml);
 }
 
 async function copytext(identity = 'typehere', btnId = 'copybutton') {
